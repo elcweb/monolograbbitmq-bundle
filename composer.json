@@ -17,8 +17,8 @@
         "oldsound/rabbitmq-bundle": "1.*"
     },
     "autoload": {
-        "psr-0": { "Elcweb\\MonologRabbitmqBundle": "" }
+        "psr-0": { "Elcweb\\MonologRabbitMqBundle": "" }
     },
     "minimum-stability": "dev",
-    "target-dir": "Elcweb/MonologRabbitmqBundle"
+    "target-dir": "Elcweb/MonologRabbitMqBundle"
 }
