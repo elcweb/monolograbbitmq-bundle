@@ -1,0 +1,24 @@
+{
+    "name": "elcweb/monolograbbitmq-bundle",
+    "type": "symfony-bundle",
+    "description": "Package that send log to rabbitmq",
+    "license": "MIT",
+    "keywords": ["rabbitmq", "monolog", "log"],
+    "authors": [
+        {
+            "name": "Etienne Lachance",
+            "email": "el@elcweb.ca"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.1",
+        "symfony/framework-bundle": ">=2.1,<3.0-dev",
+        "symfony/monolog-bundle": "~2.4",
+        "oldsound/rabbitmq-bundle": "1.*"
+    },
+    "autoload": {
+        "psr-0": { "Elcweb\\MonologRabbitmqBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Elcweb/MonologRabbitmqBundle"
+}

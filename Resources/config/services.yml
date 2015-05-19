@@ -1,0 +1,10 @@
+services:        
+    elcweb.amqp.channel:
+        class: PhpAmqpLib\Channel\AMQPChannel
+        arguments:
+            - "@old_sound_rabbit_mq.connection.default"
+    
+    elcweb.monolog.amqp:
+        class: Elcweb\MonologRabbitMqBundle\Handler\AmqpHandler
+        arguments:
+            - "@elcweb.amqp.channel"
